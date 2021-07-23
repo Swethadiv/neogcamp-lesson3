@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root
+{
+    --primary-color: #6366F1;
+    --off-white: #DDD6FE;
+
+}
+
+
+body{
+    font-family: Verdana, sans-serif;
+}
+
+.container
+{
+    padding: 0.5rem , 1rem;
+}
+
+.container-center
+{
+    text-align: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#links
+{
+    text-decoration: none;
+    padding: 0.5rem , 1rem;
+}
+
+.primary-links
+{
+background-color: var(--primary-color);
+border-radius: 1rem;
+color:white;
+border: 1px solid ;
+padding: 0.5rem;
+}
+
+.secondary-links
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+}
+
+.list-non-bullet
+{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display:inline;
+    padding: 0rem, 0.5rem;
+    
+}
+
+.navigation-container
+{
+    background-color: var(--primary-color);
+    color:white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation-container .link
+{
+    color:white ;
+    text-align: right;
+}
+
+.navigation-container .nav-pills
+{
+    text-align: right;
+}
+
+.navigation-container .nav-brand
+{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.hero
+{
+padding: 0.5rem;
+}
+
+.hero .hero-img
+{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading
+{
+    color: cadetblue;
+    padding-top: 1rem;
+}
+
+.section
+{
+     padding: 0rem;
+
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow
+{
+    background-color:var(--off-white);
+    padding: 1rem;
+}
+
+.footer
+{
+    background-color: var(--off-white);
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.footer .link
+{
+    color: white;
+}
+
+
+
