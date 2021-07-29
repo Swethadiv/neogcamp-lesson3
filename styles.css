@@ -2,7 +2,7 @@
 
 :root
 {
-    --primary-color: #6366F1;
+    --primary-color: #60A5FA;
     --off-white: #F3F4F6;
 
 }
@@ -28,25 +28,32 @@ body{
 
 #links
 {
+   box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem , 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
 }
 
 .primary-links
 {
 background-color: var(--primary-color);
-border-radius: 1rem;
-color:white;
-border: 1px solid ;
-padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 100px;
+    padding: 0.5rem;
+    margin:auto;
 }
 
 .secondary-links
 {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 0.5px solid var(--primary-color);
+    display: block;
+    max-width: 100px;
     padding: 0.5rem;
+    margin: auto;
 }
 
 .list-non-bullet
@@ -97,19 +104,28 @@ padding: 0.5rem;
 .hero
 {
 padding: 0.5rem;
+ margin: auto;
+
 }
 
 .hero .hero-img
 {
-    max-width: 250px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading
 {
-    background-color: var(--primary-color);
+   
     padding-top: 1rem;
+     text-align: center;
+     font-size: 2rem;
+     color:#9CA3AF;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
 }
 
 .section
@@ -126,6 +142,7 @@ padding: 0.5rem;
 {
     background-color:var(--off-white);
     padding: 0rem;
+   
 }
 
 .primary-links
@@ -145,6 +162,7 @@ padding: 0.5rem;
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
+     margin-top: 1rem;
 }
 
 .footer .links
